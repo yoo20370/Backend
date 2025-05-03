@@ -8,6 +8,7 @@ env:
   AWS_REGION: ap-northeast-2
   ECR_REPOSITORY: backend
 
+
 jobs:
   deploy:
     runs-on: ubuntu-latest
