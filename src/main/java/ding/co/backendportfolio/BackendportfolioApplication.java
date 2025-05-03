@@ -11,6 +11,7 @@ import org.springframework.scheduling.annotation.EnableScheduling;
 public class BackendportfolioApplication {
     public static void main(String[] args) {
         SpringApplication.run(BackendportfolioApplication.class, args);
+        System.out.println("Hello Spring Boot");
     }
 
 }
